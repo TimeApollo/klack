@@ -4,6 +4,7 @@
   "description": "A basic messaging service written with NodeJS+Express, with a web client using the Fetch API.",
   "main": "app.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/KenzieAcademy/klack#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5"
   }
 }
